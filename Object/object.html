@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+
+<body>
+<script type="text/javascript" charset="utf-8">
+  
+  
+  var person ={
+    name: 'Raju',
+    age : 30,
+    job : 'Teacher',
+    
+   father: {
+      fatherName: 'Rana',
+      fatherAge: 50,
+      fatherJob : 'Worker'
+    }
+    myfunction: function(fatherName,personName, personAge){
+      
+      console.log(fatherName + 'is a father of '+personName+ '.His son age is'+personAge)
+    }
+  }
+  
+  
+  console.log(person);
+  console.log(person.father);
+  
+  myfunction(person.father.fatherName, person.name, person.age)
+  
+  
+  
+</script>
+</body>
+
+</html>
